@@ -1,5 +1,5 @@
 # Text-quiz
-text based quiz system written in bash
+text based quiz system written in bash      
 (c) 2015 Thomas Leathers
 
     Text-quiz is free software: you can redistribute it and/or modify
