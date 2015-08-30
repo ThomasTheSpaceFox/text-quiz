@@ -1,0 +1,61 @@
+Sample .quiz for text-quiz
+BY: ThomasTheSpaceFox (Thomas Leathers)
+Q1: what animal am I?
+A: bird
+B: dog
+C: fox
+D: lizard
+C
+Q2: Finish this quote: "And may you see the truth..."
+A: in a clear sky
+B: in plain sight
+C: in a cupboard
+D: in a box
+B
+Q3: Am I awesome?
+FALSE:
+No, your not.
+TRUE:
+you are awesome, Thomas!
+TRUE
+DONE
+
+the above quiz is a sample .quiz for text-quiz
+
+notes about text-quiz's .quiz quiz files:
+each question MUST HAVE 6 LINES! this includes 4 answer choice lines, 
+1 answer line, and one question. (see above and below)
+the questions start on line 3.
+after the last question don’t forget "DONE" as above. this instructs text-quiz that the quiz is over.
+
+any questions? need help? drop me a line!
+
+in the space after "DONE" feel free to add anything relevant. such as: license notices, copyright, notes to user, 
+about author.  stuff like that. the script stops reading the file after it receives DONE as a question header (see below)
+
+
+
+breakdown of a .quiz:
+
+Sample .quiz for text-quiz    -quiz name
+BY: ThomasTheSpaceFox (Thomas Leathers)    -quiz author's name
+Q1: what animal am I?    -this is the "question header" type "DONE" here after last question of quiz.
+A: bird    -answer choices line 1
+B: dog    -answer choices line 2
+C: fox    -answer choices line 3
+D: lizard    -answer choices line 4
+C    -answer as user must type it. remember: its case sensitive!
+Q2: Finish this quote: "And may you see the truth..."
+A: in a clear sky
+B: in plain sight
+C: in a cupboard
+D: in a box
+B
+Q3: Am I awesome?
+FALSE
+No, your not.
+TRUE:
+you are awesome, Thomas!
+DONE    -special -end-of-quiz- question header as mentioned before
+
+i hope this is enough of an explanation.
